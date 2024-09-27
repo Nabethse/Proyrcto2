@@ -1,0 +1,82 @@
+.author-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ff6600;
+    margin: 0;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .menu-button {
+    background-color: #ffae00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .menu-button:hover {
+    background-color: #e65c00;
+  }
+ 
+  
+  .social-media {
+    background-color: #ff6600;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .social-media h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media-icons a {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .social-media-icons img {
+    width: 55px;
+    height: 45px;
+    filter: brightness(0) invert(1); /* Convierte los iconos a blanco */
+  }
+  
+  .social-media-icons a:hover img {
+    filter: brightness(0.9) invert(1); /* Efecto de hover en los íconos */
+  }

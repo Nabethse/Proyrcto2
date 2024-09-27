@@ -1,0 +1,25 @@
+.book {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .book-image {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .book-info {
+    max-width: 700px;
+  }
+  
+  .book-title {
+    font-size: 1.75rem;
+    margin: 0;
+    color: #e74c3c;
+  }
+  
+  .book-description {
+    font-size: 1rem;
+    color: #555;
+  }
